@@ -1,0 +1,13 @@
+name = "JuliaNotebooks"
+uuid = "95fe3178-8d63-42d7-95d8-eafe05f77977"
+authors = ["Artur Doshchyn <artur.doshchyn@gmail.com> and contributors"]
+version = "0.1.0"
+
+[compat]
+julia = "1.8"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
